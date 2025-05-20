@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+}
+
+.navbar .order-btn.active {
+  color: white !important;
+  background: #4A90E2 !important;
+  border-color: #4A90E2 !important;
+  box-shadow: 0 0 10px #4A90E2aa;
+  transition: background-color 0.3s ease;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #dbe9ff;
+  cursor: pointer;
+}
+
+table th,
+table td {
+  vertical-align: middle !important;
+}
+
+img {
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 5px 15px rgba(74,144,226,0.4);
+}
